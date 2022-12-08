@@ -1,6 +1,6 @@
 from diaries.DiarySample import DiarySample
 
-#のリストには、メンバーの各日記が格納されます。
+#↓のリストには、メンバーの各日記が格納されます。
 diaries = [
     DiarySample(), 
 ]
