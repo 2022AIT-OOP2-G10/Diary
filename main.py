@@ -1,22 +1,15 @@
-# -*- coding: utf-8 -*-
 from diaries.DiarySample import DiarySample
-<<<<<<< Updated upstream
+from diaries.k21014Diary import k21014Diary
+from diaries.SomekiDiary import SomekiDiary
 from diaries.Diary_k21091 import Diary_k21091
-=======
-from diaries.MuramatsuDiary import MuramatsuDiary
->>>>>>> Stashed changes
 
-#のリストには、メンバーの各日記が格納されます。
+#↓のリストには、メンバーの各日記が格納されます。
 diaries = [
-<<<<<<< Updated upstream
-    DiarySample(),
-    Diary_k21091(),
-    ]
-=======
     DiarySample(), 
-    MuramatsuDiary(),
+    k21014Diary(),
+    SomekiDiary(),
+    Diary_k21091(),
 ]
->>>>>>> Stashed changes
 for d in diaries:
     print("---------------------------------")
     print(d.get_date())
