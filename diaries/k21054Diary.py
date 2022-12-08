@@ -1,6 +1,6 @@
-from diaries.k21054Diary import AbstractDiary
+from diaries.K21054Diary import AbstractDiary
 
-class k21054Diary(AbstractDiary):
+class K21054Diary(AbstractDiary):
 
     def get_data(self):
         return "2022-10-10"
