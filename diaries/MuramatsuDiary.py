@@ -1,5 +1,6 @@
 from diaries.AbstractDiary import AbstractDiary
 
+
 class  MuramatsuDiary(AbstractDiary):
     def get_date(self):
         return "2022-07-22"
